@@ -384,4 +384,17 @@ Windows:
 ```powershell
 curl.exe http://localhost:8080/ors/v2/health
 ```
+
+## Test API
+
+```bash
+curl -X POST "http://localhost:8080/ors/v2/directions/driving-car" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "coordinates": [
+      [101.6869, 3.1390],
+      [101.6151, 3.0738]
+    ]
+  }'
+```
 ---
