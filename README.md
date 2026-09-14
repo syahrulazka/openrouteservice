@@ -86,6 +86,7 @@ openrouteservice/
 ├── docker-compose.yml
 └── ors-docker/
     ├── config/
+    │   └── ors-config.yml
     ├── elevation_cache/
     ├── graphs/
     ├── files/
