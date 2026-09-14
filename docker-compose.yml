@@ -10,7 +10,7 @@ services:
       - ./ors-docker:/home/ors
 
     environment:
-      REBUILD_GRAPHS: "FALSE"
+      REBUILD_GRAPHS: "TRUE"
       CONTAINER_LOG_LEVEL: INFO
 
       XMS: 4g
