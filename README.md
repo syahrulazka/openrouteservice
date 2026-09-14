@@ -97,13 +97,17 @@ openrouteservice/
 
 # 4. Download OpenStreetMap Data
 
+## Manual
+
 The easiest option is the **Malaysia + Singapore + Brunei** Geofabrik extract.
 
 Source:
 
 https://download.geofabrik.de/asia/malaysia-singapore-brunei.html
 
-## Linux
+Move/Cut from Folder Download to "openrouteservice/ors-docker/files"
+
+## Linux Terimal
 
 From the project folder:
 
