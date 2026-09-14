@@ -1,0 +1,12 @@
+ors:
+  engine:
+    profile_default:
+      build:
+        source_file: /home/ors/files/malaysia-singapore-brunei-latest.osm.pbf
+
+    profiles:
+      driving-car:
+        enabled: true
+
+      foot-walking:
+        enabled: true
